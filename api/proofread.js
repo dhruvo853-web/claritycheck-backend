@@ -56,7 +56,7 @@ Rules:
         "Authorization": `Bearer ${process.env.OPENAI_API_KEY}`
       },
       body: JSON.stringify({
-        model: "gpt-5.5",
+        model: "gpt-5.5-mini",
         input: prompt
       })
     });
